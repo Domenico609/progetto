@@ -1,0 +1,35 @@
+
+print("scegli un panino/n")
+print("digita 1 per Big Mc,2 per Mc chiken,3 per Crispy/n")
+Scelta=int(input(1))
+if scelta==1://hai scelto il big Mc
+Spesa=Spesa+7.00
+elif  scelta==2://hai scelto il Mc chiken
+Spesa=Spesa+4.50
+elif scelta==3://hai scelto il Crispy
+Spesa=Spesa+5.80 
+ 
+print("scegli il secondo/n")	
+print("digita 1 per patatine,digita 2 per nuggets,3 per alette di pollo)
+Scelta=int(input(2))
+if scelta==1://hai scelto le patatine
+Spesa=spesa+3.00
+elif scelta==2://hai scelto nuggets
+Spesa=Spesa+4.80
+elif scelta==3://hai scelto le alette di pollo
+Spesa=Spesa+3.60
+print("Segli il dessert")
+print("digita 1 per milkshake,digita 2 per il caffè,digita 3 per il Mc flurry)
+Scelta=int(input(3))
+if Scelta==1://hai scelto milkshake
+Spesa=Spesa+3.50
+elif scelta==2://hai scelto caffè
+Spesa=Spesa+1.20
+elif scelta==3:// hai scelto un mc flurry
+Spesa=Spesa+3.80
+Totale=Spesa
+
+
+
+
+
